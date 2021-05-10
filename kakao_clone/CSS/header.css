@@ -17,24 +17,21 @@
     display: flex;
     justify-content: space-between;
 }
+
 .header-icon {
-    height: 25px;
+    height: 20px;
 }
 .header-bar .header-top {
     margin-bottom: 15px;
     font-size: 12px;
 }
 .top-ICON {
-    width: 18px;
+    width: 15px;
 }
-
 
 .header-clock {
-    font-size: 14px;
+    font-size: 11px;
 
-}
-.header-bottom .header-column:first-child {
-    color: rgba(255, 255, 255, 0.5);
 }
 .header-bar .header-top {
     margin-bottom: 15px;
@@ -43,11 +40,8 @@
 .header-bar .header-bottom {
     margin: 0 7px;
 }
-.header-bar .header-num{
-    color: yellow;
-}
 .header-bar .header-column {
-    width: 100px;
+    width: 33%;
 }
 .header-bar .header-column:last-child {
     text-align: right;
@@ -55,4 +49,7 @@
 
 .header-bar .header-column:nth-child(2) {
     text-align: center;
+}
+.header-bar .header-num{
+    color: yellow;
 }
