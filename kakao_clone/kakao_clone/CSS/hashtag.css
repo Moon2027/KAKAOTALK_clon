@@ -1,0 +1,92 @@
+.hashtag-search {
+    position: fixed;
+    width: 100%;
+    bottom: 70px;
+    justify-content: space-between;
+    border: 1px solid rgb(226, 226, 226);
+    border-top-left-radius: 9%;
+    border-top-right-radius: 9%;
+    border-bottom: none;
+}
+
+.hashtag-search .hashtag-searchbar  img {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    padding-top:   10px;
+    margin-left: 10px;
+}
+.hashtag-searchbar {
+    padding: 15px 15px 10px 15px;
+    margin-top: 5px;
+    position: relative;
+    z-index: 10;
+}
+.hashtag-searchbar input {
+    width: 100%;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+    transition: all .1s ease-in-out;
+}
+.hashtag-searchbar input:focus {
+    box-shadow: 0px 3px 7px rgb(42, 108, 134);
+    border: 3px solid rgb(144, 200, 223);
+}
+.hashtag-words-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 10px;
+}
+.hashtag-words-content .hashtag-words {
+    border: 1px solid transparent;
+    border-radius: 10%;
+    background-color: rgb(238, 238, 238);
+    padding: 5px 10px;
+    color: gray;
+}
+.hashtag-optionbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px 10px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    color: skyblue;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    margin-bottom: 5px;
+}
+.hashtag-optionbar a {
+    text-decoration: none;
+    color: inherit;
+}
+.hashtag-optionbar a:hover {
+    transition: 1s;
+    color: black;
+}
+.corona-virus {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding-left: 50px;   
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding-bottom: 7px;
+}
+.corona-virus-content .corona-virus-total {
+    font-size: 19px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+.corona-virus-content .corona-virus-today {
+    font-size: 14px;
+    color: red;
+    font-weight: 700;
+    margin-right: 30px;
+}
+.corona-virus-content .corona-virus-date {
+    font-size: 12px;
+    color: gray;
+}
